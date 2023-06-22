@@ -170,4 +170,8 @@
         margin-top: 9px;
         
     }
+    .about-section{
+        position: relative;
+        top: 105px;
+    }
 }
