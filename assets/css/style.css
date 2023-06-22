@@ -1,0 +1,173 @@
+
+.header-section{
+    background-color: black !important;
+}
+
+#head-bg{
+    background-image: url('/assets/images/home-banner.jpg');
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.navbar-brand{
+    font-size: 32px !important;
+    font-weight: 700 !important;
+    line-height: 1 !important;
+    padding-left: 90px;
+    color: white !important;
+}
+.companydot-1{
+    color: #ffc451;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding-left: 1.5rem !important;
+    font-size: 17px !important;
+    font-weight: 600 !important;
+    color: white !important;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    color: #ffc451 !important;
+}
+.btn{
+    margin-right: 80px !important;
+}
+.navbar-toggler-icon{
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+.text-area{
+
+}
+.mt-20{
+    margin-top: 50px;
+}
+.intro-text{
+    background: black;
+    height: 600px;
+}
+.justify-center{
+    justify-content: center !important;
+}
+.text-area .container-fluid .home-head{
+    font-size: 56px;
+    text-align: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.text-area .container-fluid .home-head .texthead-dot{
+    color: #ffc451;
+}
+.text-area .container-fluid .home-para{
+    font-family: 'Raleway', sans-serif;
+    color: #e4e4e4;
+    font-size: 28px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 10px;
+}
+.text-area .container-fluid .home-box-1{
+    height: 180px;
+    width: 180px;
+    display: inline-block;
+    margin-left: 15px !important;
+    margin-right: 15px !important;
+    border: 1px solid white;
+}
+.text-area .container-fluid .home-box-1:hover{
+    border: 1px solid #ffc451;
+}
+.text-area .container-fluid .home-box-1 .home-icon{
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    color: #ffc451;
+    font-size: 35px;
+    margin-left: 60px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.text-area .container-fluid .home-box-1 .navbox-name{
+    color: white ;
+    padding-left: 33px;
+    padding-right: 33px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    cursor: pointer;
+}
+.text-area .container-fluid .home-box-1 .navbox-name:hover{
+    color: #ffc451;
+}
+.about-section{
+    top: 100px;
+    position: relative;
+}
+.about-us{
+    background: white;
+    height: 450px;
+}
+.about-us .about-head{
+    font-size: 28px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+.about-us .about-desp{
+    font-size: 16px;
+    font-style: italic;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(68, 68, 68);
+}
+.about-us .about-list{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(68, 68, 68);
+    padding-left: 2px !important;
+}
+.about-us .about-list .about-item{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(68, 68, 68);
+    list-style-type: none;
+}
+.about-us .about-list .fa-check-double{
+    margin-right: 10px;
+    color: #ffc451;
+    font-size: 17px;
+}
+.about-us .about-list .about-para{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(68, 68, 68);
+    
+}
+@media(min-width:320px) and (max-width:768px){
+    .intro-text{
+        height: 720px !important;
+    }
+    .home-head{
+        font-size: 30px !important;
+    text-align: center !important;
+    padding-left: 70px;
+    padding-right: 70px;
+    }
+    .text-area .container-fluid .home-para{
+        font-size: 17px;
+        font-weight: 400;
+        text-align: center;
+        padding-top: 0px ;
+    }
+    .lore-boxes{
+        text-align: center;
+    }
+    .text-area .container-fluid .home-box-1{
+        height: 110px !important;
+        width: 285px !important;
+    }
+    .text-area .container-fluid .home-box-1 .home-icon{
+        
+        margin-left: 6px;
+        margin-top: 9px;
+        
+    }
+}
