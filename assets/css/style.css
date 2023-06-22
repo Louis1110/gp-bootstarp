@@ -143,8 +143,10 @@
 }
 @media(min-width:320px) and (max-width:768px){
     .intro-text{
-        height: 720px !important;
+        height: 800px !important;
     }
+    .mt-20{
+        margin-top:25px:
     .home-head{
         font-size: 30px !important;
     text-align: center !important;
